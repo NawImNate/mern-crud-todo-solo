@@ -22,7 +22,6 @@ app.listen(port, () => {
 
 // Connect to mdb
 mongoose.connect(
-  // "mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@todo.h8eo3xa.mongodb.net/test",
   "mongodb+srv://admin:kep96xOejv6O2BtF@todo.h8eo3xa.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
