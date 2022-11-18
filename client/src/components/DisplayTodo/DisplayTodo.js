@@ -25,4 +25,4 @@ const DisplayTodo = () => {
   return <div>DisplayTodo</div>;
 };
 
-DisplayTodo;
+export default DisplayTodo;
